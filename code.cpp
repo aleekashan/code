@@ -3,14 +3,27 @@ using namespace std;
 
 int main(){
 
-    int n;
-    if(n%2==0){
-        cout<<"even"<<endl;
-
+    int marks;
+    cout<<"Enter Marks : ";
+    cin>>marks;
+    if(marks>=90){
+        cout<<"Grade A+";
+    
+    }
+    else if (marks>=80)
+    {
+        cout<<"Grade A";
+    }
+    else if (marks>=70){
+        cout<<"Grade B";
+    }
+    else if (marks>=60){
+        cout<<"Grade C";
     }
     else{
-        cout<<"odd"<<endl;
+        cout<<"Sorry apply next year";
     }
+    
 
 
     }
