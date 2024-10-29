@@ -20,18 +20,20 @@ int main(){
     // else{
     //     cout<<"Sorry apply next year";
     // }
-    int n = 5000;
-    int count = 1;
-    while (count <= n)
-    {
-       cout<< count << " ";
-       count++;
-    }
+
+ int marks[5] = {90, 80, 70, 60, 50};
+
+ cout<<marks[0]<<endl;
+ cout<<marks[1]<<endl;
+  cout<<marks[2]<<endl;    
+   cout<<marks[3]<<endl;
+    cout<<marks[4]<<endl;
+}
     
     
 
 
-    }
+    
     
 
 // Boilerplate Code
