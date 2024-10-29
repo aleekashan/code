@@ -10,12 +10,9 @@ int main(){
         cout<<"Grade A+";
     
     }
-    else if (marks>=80)
+    else if (marks>=80 && marks>=70 )
     {
         cout<<"Grade A";
-    }
-    else if (marks>=70){
-        cout<<"Grade B";
     }
     else if (marks>=60){
         cout<<"Grade C";
